@@ -41,7 +41,7 @@ But, what if we need base 4 permutations of the same length?. It would look like
 
 _(alphabet = 4 elements [0,1,2,3]; word = 3 characters length; alphabet^word = 64 permutations)_
 
-Well, there are two basic way to implement this. The "easy" one using recursion, and the less intuitive using traditional loops.
+Well, there are two basic ways to implement this. The "easy" one is using recursion, and the less intuitive using traditional loops.
 
 Let's have a look of booth methods.
 
