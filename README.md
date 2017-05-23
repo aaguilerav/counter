@@ -108,8 +108,9 @@ The blue line represents the amount of permutations generated per millisecond fo
 
 The orange line represents the amount of permutations generated per millisecond for different characters length words, using simple loops.
 
-As you can see, for 8 or less characters length words, the execution time is more or less the same for booth methods, but for larger words, the simple loops method is FAR faster generating permutations (more than 800,000 permutations per millisecond, compared to the 200,000 on avg mark using recursion).
+As you can see, for 8 or less characters length words, the execution time is more or less the same for booth methods, but for larger words, the simple loops method is FAR faster generating permutations (more than 800,000 permutations per millisecond, compared to the 200,000 on avg using recursion).
 
-### Conclusion
+
+## Conclusion
 
 Although recursion leads to cleaner code and simpler debugging, sometimes is not the more efficient method to address a problem.
