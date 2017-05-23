@@ -1,3 +1,4 @@
+package main.generic.counter;
 
 public class CounterRecursive {
 	static long count = 0;
