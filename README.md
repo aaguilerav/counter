@@ -68,7 +68,7 @@ static void genericCounterRecursive(int level, int maxLevel, int[] sequence) {
 
 ### Implementation of a generic counter using simple loops
 
-On the other hand, if we try to solve this using simple loops, the implementation is a little bit more tricky:
+On the other hand, if we try to solve this using simple loops, the implementation is a little tricky:
 
 ```java
 static void genericCounterNonRecursive(int maxLevel, int[] sequence) {
@@ -101,3 +101,15 @@ However, the execution looks simpler:
 ### Comparision
 
 There is a huge difference between the two methods in terms of execution time.
+
+![Fig3](https://raw.githubusercontent.com/aaguilerav/counter/master/src/main/resources/execution-time.png)
+
+The blue line represents the amount of permutations generated per millisecond for different characters length words, using recursion.
+
+The orange line represents the amount of permutations generated per millisecond for different characters length words, using simple loops.
+
+As you can see, for 8 or less characters length words, the execution time is more or less the same for booth methods, but for larger words, the simple loops method is FAR faster generating permutations (more than 800,000 permutations per millisecond, compared to the 200,000 on avg mark using recursion).
+
+### Conclusion
+
+Although recursion leads to cleaner code and simpler debugging, sometimes is not the more efficient method to address a problem.
