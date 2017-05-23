@@ -111,6 +111,12 @@ The orange line represents the amount of permutations generated per millisecond 
 As you can see, for 8 or less characters length words, the execution time is more or less the same for booth methods, but for larger words, the simple loops method is FAR faster generating permutations (more than 800,000 permutations per millisecond, compared to the 200,000 on avg using recursion).
 
 
-## Conclusion
+Conclusion
+---
 
 Although recursion leads to cleaner code and simpler debugging, sometimes is not necessarily the more efficient method to address a problem.
+
+
+### Possible Next Steps
+
+Parallel Processing perhaps?, A comparision among different programming languages would be nice also.
