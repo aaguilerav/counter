@@ -17,6 +17,7 @@ For example, we are all familiar with permutations of 0's and 1's:
 | 1 | 0 | 1 |
 | 1 | 1 | 0 |
 | 1 | 1 | 1 |
+
 _(alphabet = 2 elements [0,1]; word = 3 characters length; alphabet^word = 8 permutations)_
 
 But, what if we need base 4 permutations of the same length?. It would look like this:
@@ -37,6 +38,7 @@ But, what if we need base 4 permutations of the same length?. It would look like
 | 3 | 3 | 1 |
 | 3 | 3 | 2 |
 | 3 | 3 | 3 |
+
 _(alphabet = 4 elements [0,1,2,3]; word = 3 characters length; alphabet^word = 64 permutations)_
 
 Well, there are two basic way to implement this. The "easy" one using recursion, and the less intuitive using traditional loops.
@@ -98,4 +100,4 @@ However, the execution looks simpler:
 
 ### Comparision
 
-There is a huge difference between the two methods in terms of execution time. 
+There is a huge difference between the two methods in terms of execution time.
