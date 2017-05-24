@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/aaguilerav/counter.svg?branch=master)](https://travis-ci.org/aaguilerav/counter)
+
 # Recursive vs. NonRecursive Counter - A Practical Analysis
 ---
 
