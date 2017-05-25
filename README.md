@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/aaguilerav/counter.svg?branch=master)](https://travis-ci.org/aaguilerav/counter)
-
 # Recursive vs. NonRecursive Counter - A Practical Analysis
 ---
+
+[![Build Status](https://travis-ci.org/aaguilerav/counter.svg?branch=master)](https://travis-ci.org/aaguilerav/counter)
 
 _This repository is part of a series of basic implementations that I'm going to persist in this platform as a personal reference of how to design certain algorithms._
 
