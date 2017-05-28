@@ -118,6 +118,11 @@ Conclusion
 
 Although recursion leads to cleaner code and simpler debugging, sometimes is not necessarily the more efficient method to address a problem.
 
+### Compiling, Packaging and Executing the software
+
+There is a script named `compile.sh` that you can use in order to compile and package the project. Or, just execute the following command: `mvn clean compile assembly:single`.
+
+The JAR file is created at `counter/target`, just execute a `java -jar <jar file generated>`
 
 ### Possible Next Steps
 
